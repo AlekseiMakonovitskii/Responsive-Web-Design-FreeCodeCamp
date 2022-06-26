@@ -1,0 +1,318 @@
+
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: #eee;
+  font-family: 'Lato', sans-serif;
+	
+}
+
+#logo img {
+	width: 300px;
+}
+
+#header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 50px 50px 50px;
+	position: fixed;
+	max-height: 150px;
+	z-index: 1;
+	background: #eee;;
+	width: 100%;
+}
+
+#nav-bar {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#nav-bar a {
+	margin-bottom: 5px;
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 150px;
+	align-items: center;
+	padding: 0px 0px 0px 0px;
+	min-width: 100%;
+  max-width: 100%;
+}
+
+.emailArea {
+	display: flex;
+ 	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 70px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.emailArea input[type="email"] {
+	min-height: 30px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.emailArea input[type="submit"] {
+	min-height: 30px;
+	width: 150px;
+	background: #f1c40f;
+	border: 0;
+	font-weight: 900;
+	font-size: 16px;
+}
+
+.emailArea input[type="submit"]:hover {
+	background: orange;
+}
+
+.emailArea h2 {
+	margin-bottom: 15px;
+}
+
+.catalogue {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.boxTextArea {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-width: 80%;
+	
+}
+
+.box {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 70px;
+	min-width: 100%;
+	min-height: 70px;
+  
+}
+
+.boxPhotoArea {
+	display: none;
+}
+
+.boxTextArea h3 {
+	text-align: center;
+}
+
+.boxTextArea p {
+	text-align: center;
+}
+
+.tariffsArea {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.tariff {
+	height: 300px;
+	width: 311px;
+	background: #eee;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 10px;
+
+}
+
+.tariffHeader {
+	background: rgb(217, 217, 217);
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tariffHeader h3 {
+	font-size: 16px;
+}
+
+.tariffMain {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.tariffMain p {
+	margin: 5px 0px 5px 0px;
+}
+
+.tariffMain h3 {
+	font-size: 24px;
+	margin: 5px 0px 15px 0px;
+}
+
+.tariffButton {
+	margin-top: 30px;
+	min-height: 40px;
+	width: 120px;
+	background: #f1c40f;
+	border: none;
+}
+
+.tariffButton:hover {
+	background: orange;
+}
+
+.boxTextArea {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+
+}
+
+#footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-top: 20px;
+	min-height: 70px;
+	background: rgb(214, 214, 214);
+}
+
+.footerNav {
+	display: flex;
+}
+
+.footerNav ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.footerNav li {
+	list-style: none;
+	margin: 0px 10px 5px 0px;
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.footerText {
+	color: rgb(49, 49, 49);
+	font-size: 14px;
+	margin: 0px 10px 15px 0px;
+}
+
+.videoArea {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	min-width: 100%;
+}
+
+iframe {
+	
+	min-width: 100%;
+}
+
+@media (min-width: 600px) {
+	.tariffsArea {
+		flex-direction: row;
+	}
+
+	.videoArea {
+		
+		min-width: 30%;
+		
+	}
+
+	#header {
+		flex-direction: row;
+	}
+
+	#nav-bar {
+		min-width: 35%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		
+	}
+
+	#nav-bar a {
+		margin: 5px;
+	}
+
+	.boxTextArea h3 {
+		text-align: start;
+	}
+
+	.boxTextArea p {
+		text-align: start;
+	}
+
+	.boxPhotoArea {
+		display: block;
+		min-width: 15%;
+		min-height: 70px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		
+	}
+
+ .icons {	
+		fill: darkorange;
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		-webkit-font-smoothing: antialiased;
+		display: inline-block;
+		font-style: normal;
+		font-variant: normal;
+		text-rendering: auto;
+		line-height: 1;
+		font-size: 3em;
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		height: 50px;
+	}
+
+	
+}
