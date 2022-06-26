@@ -1,3 +1,3 @@
-#Responsive Web Design FreeCodeCamp Certificate
-![**My Certificate**](/assets/responsiveWebDesignCertification.jpg);
-[Verify this certification at](https://freecodecamp.org/certification/AlekseiMakonovitskii/responsive-web-design)
+# Responsive Web Design FreeCodeCamp Certificate
+![**My Certificate**](/responsiveWebDesignCertification.jpg);
+[Click here to verify this certification](https://freecodecamp.org/certification/AlekseiMakonovitskii/responsive-web-design)
